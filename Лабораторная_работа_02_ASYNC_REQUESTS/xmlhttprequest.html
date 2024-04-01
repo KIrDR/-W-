@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xmlhttprequest</title>
+</head>
+<body>
+    <h1>xmlhttprequest</h1>
+
+    <H2>Get-запрос к http://localhost:5000/api/name</H2>
+
+    <h1 id="result"></h1>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const xhr = new XMLHttpRequest();
+            xhr.onreadystatechange =  function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                     document.getElementById('result').innerHTML = xhr.responseText;
+                }
+            };
+            await xhr.open('GET', 'http://localhost:5000/api/name', true);
+            xhr.send(); 
+        });
+    </script>
+</body>
+</html>

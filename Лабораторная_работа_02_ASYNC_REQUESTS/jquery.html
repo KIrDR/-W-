@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <h1>JQuery</h1>
+
+    <H2>Get-запрос к http://localhost:5000/api/name</H2>
+  <h1 id="fullName"></h1>
+  <p></p>
+
+  <script>
+    $(document).ready(function() {
+      $.ajax({
+        url: '/api/name',
+        method: 'GET',
+        success: function(fullName) {
+          $('#fullName').append(fullName);
+        },
+        error: function(xhr, status, error) {
+          console.error(`Ошибка: ${status}`);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

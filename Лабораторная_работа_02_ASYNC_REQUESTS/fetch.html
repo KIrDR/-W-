@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xmlhttprequest</title>
+</head>
+<body>
+    <h1>Fetch</h1>
+
+    <H2>Get-запрос к http://localhost:5000/api/name</H2>
+
+    <h1 id="result"></h1>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('http://localhost:5000/api/name')
+              .then(response => response.text())
+              .then(data => {
+                console.log(data);
+                document.getElementById('result').innerHTML += data;
+              })
+              .catch(error => console.error('Error:', error));
+          });
+    </script>
+</body>
+</html>
