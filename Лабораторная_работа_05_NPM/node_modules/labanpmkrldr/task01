@@ -1,0 +1,85 @@
+PS C:\Users\IlyaL\Desktop\ПКСП\Labs\lab05> npm info nodemailer
+
+nodemailer@6.9.5 | MIT-0 | deps: none | versions: 261
+Easy as cake e-mail sending from your Node.js applications
+https://nodemailer.com/
+
+keywords: Nodemailer
+
+dist
+.tarball: https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.5.tgz
+.shasum: eaeae949c62ec84ef1e9128df89fc146a1017aca
+.integrity: sha512-/dmdWo62XjumuLc5+AYQZeiRj+PRR8y8qKtFCOyuOl1k/hckZd8durUUHs/ucKx6/8kN+wFxqKJlQ/LK/qR5FA==
+.unpackedSize: 481.7 kB
+
+maintainers:
+- andris <andris@kreata.ee>
+
+dist-tags:
+beta: 2.4.0-beta.0  latest: 6.9.5
+
+published 3 weeks ago by andris <andris@kreata.ee>
+PS C:\Users\IlyaL\Desktop\ПКСП\Labs\lab05> npm view nodemailer
+
+nodemailer@6.9.5 | MIT-0 | deps: none | versions: 261
+Easy as cake e-mail sending from your Node.js applications
+https://nodemailer.com/
+
+keywords: Nodemailer
+
+dist
+.tarball: https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.5.tgz
+.shasum: eaeae949c62ec84ef1e9128df89fc146a1017aca
+.integrity: sha512-/dmdWo62XjumuLc5+AYQZeiRj+PRR8y8qKtFCOyuOl1k/hckZd8durUUHs/ucKx6/8kN+wFxqKJlQ/LK/qR5FA==
+.unpackedSize: 481.7 kB
+
+maintainers:
+- andris <andris@kreata.ee>
+
+dist-tags:
+beta: 2.4.0-beta.0  latest: 6.9.5
+
+published 3 weeks ago by andris <andris@kreata.ee>
+PS C:\Users\IlyaL\Desktop\ПКСП\Labs\lab05> npm show nodemailer
+
+nodemailer@6.9.5 | MIT-0 | deps: none | versions: 261
+Easy as cake e-mail sending from your Node.js applications
+https://nodemailer.com/
+
+keywords: Nodemailer
+
+dist
+.tarball: https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.5.tgz
+.shasum: eaeae949c62ec84ef1e9128df89fc146a1017aca
+.integrity: sha512-/dmdWo62XjumuLc5+AYQZeiRj+PRR8y8qKtFCOyuOl1k/hckZd8durUUHs/ucKx6/8kN+wFxqKJlQ/LK/qR5FA==
+.unpackedSize: 481.7 kB
+
+maintainers:
+- andris <andris@kreata.ee>
+
+dist-tags:
+beta: 2.4.0-beta.0  latest: 6.9.5
+
+published 3 weeks ago by andris <andris@kreata.ee>
+PS C:\Users\IlyaL\Desktop\ПКСП\Labs\lab05> npm v nodemailer   
+
+nodemailer@6.9.5 | MIT-0 | deps: none | versions: 261
+Easy as cake e-mail sending from your Node.js applications
+https://nodemailer.com/
+
+keywords: Nodemailer
+
+dist
+.tarball: https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.5.tgz
+.shasum: eaeae949c62ec84ef1e9128df89fc146a1017aca
+.integrity: sha512-/dmdWo62XjumuLc5+AYQZeiRj+PRR8y8qKtFCOyuOl1k/hckZd8durUUHs/ucKx6/8kN+wFxqKJlQ/LK/qR5FA==
+.unpackedSize: 481.7 kB
+
+maintainers:
+- andris <andris@kreata.ee>
+
+dist-tags:
+beta: 2.4.0-beta.0  latest: 6.9.5
+
+published 3 weeks ago by andris <andris@kreata.ee>
+PS C:\Users\IlyaL\Desktop\ПКСП\Labs\lab05>
